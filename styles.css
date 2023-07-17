@@ -1,0 +1,90 @@
+/* work sans font */
+/* shared styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    width: 160px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+
+}
+
+/* header-styles */
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+.upper-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+
+}
+
+nav li {
+    margin-right: 20px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #312f2f;
+
+}
+
+.heading-name {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* banner styles */
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.banner-title {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-description {
+    text-align: center;
+    font-size: 16px;
+}
