@@ -123,3 +123,40 @@ medium device*/
          
       }
 }
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* teams-container-styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+.teams-title{
+    font-size: 2.8rem;
+    
+}
+.Quick-list{
+    color:  #727272;
+    font-weight: 500;
+}
+.of-Our{
+    color: #131313;
+    font-weight: 700;
+
+}
+.t-features{
+    color: #FF900E;
+    font-weight: 700;
+}
