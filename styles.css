@@ -18,7 +18,7 @@
     text-align: center;
     font-size: 17px;
     font-weight: 600;
-    margin-bottom: 20px;
+    cursor: pointer;
 
 
 }
@@ -43,7 +43,6 @@ header {
     list-style: none;
     font-size: 18px;
     font-weight: 500;
-    line-height: 26px;
 
 }
 
@@ -87,4 +86,40 @@ nav li a {
 .banner-description {
     text-align: center;
     font-size: 16px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+/* responsive styles 
+mobile device*/
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 15px;
+    }
+    .upper-side{
+        flex-direction: column;
+    }
+    
+    .menus{
+      /* flex-direction: column;  */
+        gap: 10px;
+       
+    }
+}
+/* responsive styles 
+medium device*/
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 15px;
+    }
+    .upper-side{
+        flex-direction: column;
+    }
+    .menus{
+        /* flex-direction: column;  */
+          gap: 10px;
+         
+      }
 }
